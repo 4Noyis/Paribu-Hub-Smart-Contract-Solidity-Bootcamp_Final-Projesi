@@ -25,7 +25,7 @@ contract RentalContract {
         uint256 endDate; // Kira bitiş tarihi
         bool isRented; // Kiralanmış mı
         bool isTerminated; // Kiralama sonlandırıldı mı
-        address earlyTerminationRequestedBy; // Erken sonlandırma talebinde bulunan kullanıcı
+        address earlyTerminationRequestedBy; // Erken sonlandırma isteğinde bulunan kişi
     }
 
     mapping (address => User) public users;
